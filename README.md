@@ -14,3 +14,6 @@
 
 데이터의 행 개수가 6000만개가 넘어 일반적인 RDBMS로는 빠른 분석 진행을 할 수 없었습니다.  
 실제로 mysql을 사용하려고 시도하였으나 데이터 업로드가 되지 않고 튕기는 현상이 일어났습니다. 따라서 데이터를 GCS로 저장하고, 빅쿼리 및 파이썬을 사용했습니다.
+
+* 빅쿼리 및 파이썬 연동 코드와 funnel 분석 차트 코드는 아래 링크로 걸었습니다.
+* [파이썬 코드](https://github.com/wbin0718/shoppingmall_weblog/blob/master/shoppingmall_weblog.ipynb)
